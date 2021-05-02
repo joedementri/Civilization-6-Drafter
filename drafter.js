@@ -171,8 +171,8 @@
 					
 					//loop thru the avlaiable civs and pick 3 at random
 					var thisciv = Math.floor(Math.random() * allowedCivs.length);
+					console.log(allowedCivs[thisciv])
 					picksHTML = picksHTML + "<td><img src='img/" + allowedCivs[thisciv].toLowerCase() + ".png'></img>" + allowedCivs[thisciv];
-					console.log(picksHTML)
 					
 					if (k < rndpicks) {
 						picksHTML = picksHTML + "<td>";
